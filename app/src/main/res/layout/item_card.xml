@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!-- Card back face -->
+        <LinearLayout
+            android:id="@+id/cardBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_back"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:alpha="0.6"/>
+
+        </LinearLayout>
+
+        <!-- Card front face -->
+        <LinearLayout
+            android:id="@+id/cardFront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_front"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvEmoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

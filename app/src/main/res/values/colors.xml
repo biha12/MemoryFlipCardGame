@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink_primary">#E91E8C</color>
+    <color name="pink_dark">#AD1457</color>
+    <color name="pink_light">#FCE4EC</color>
+    <color name="pink_accent">#FF4081</color>
+    <color name="pink_card_back">#F48FB1</color>
+    <color name="pink_card_front">#FFFFFF</color>
+    <color name="pink_matched">#F8BBD9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_dark">#880E4F</color>
+    <color name="gold">#FFD700</color>
+    <color name="background_gradient_start">#FCE4EC</color>
+    <color name="background_gradient_end">#F8BBD9</color>
+</resources>

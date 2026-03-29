@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memory Flip</string>
+    <string name="btn_play_classic">Classic Mode</string>
+    <string name="btn_play_challenge">Challenge Mode</string>
+    <string name="btn_restart">Restart</string>
+    <string name="moves">Moves: %d</string>
+    <string name="moves_left">Moves Left: %d</string>
+    <string name="pairs">Pairs: %d / 8</string>
+    <string name="win_title">You Win!</string>
+    <string name="win_message">Completed in %d moves!</string>
+    <string name="win_message_challenge">Challenge beaten with %d moves to spare!</string>
+    <string name="lose_title">Out of Moves!</string>
+    <string name="lose_message">You found %d / 8 pairs. Try again!</string>
+    <string name="btn_play_again">Play Again</string>
+    <string name="btn_menu">Main Menu</string>
+    <string name="easy">Easy — 8 moves</string>
+    <string name="medium">Medium — 10 moves</string>
+    <string name="hard">Hard — 12 moves</string>
+</resources>
